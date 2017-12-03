@@ -1,6 +1,11 @@
 html {
     text-align: center;
 }
+h1 {
+    background-color: aliceblue;
+    border-bottom: 1px solid;
+    font-size: 12px;
+}
 
 body {
     margin: 0;
