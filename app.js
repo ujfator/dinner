@@ -4,6 +4,9 @@ function vyberJidla () {
 vyberJidla();
 
 function pictureRemoval() {
-    document.getElementsByTagName("img")[0].style.display = "none";
-    document.getElementsByTagName("button")[0].style.display = "none";
+    document.getElementsByClassName("toHide")[0].style.display = "none";
+    document.getElementsByClassName("toShow")[0].style.display = "block";
+}
+function jidlo () {
+    at se ukaze obrazek jidla.kdyznadtimhoveruju
 }
