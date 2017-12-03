@@ -1,4 +1,4 @@
 function vyberJidla () {
-    alert("cus");
+    alert("cus vole");
 };
 vyberJidla();
