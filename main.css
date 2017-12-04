@@ -45,3 +45,15 @@ button:hover {
     font-family: 'Lobster', cursive;
     display: inline-block;
 }
+#horiatiki {
+    display: none;
+}
+#wings {
+    display: none;
+}
+#pasta {
+    display: none;
+}
+#gnocchi {
+    display: none;
+}
