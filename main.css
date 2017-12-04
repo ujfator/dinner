@@ -8,6 +8,9 @@ h1 {
     border-bottom: 1px solid;
     font-size: 12px;
 }
+h2 {
+    color: beige;
+}
 .test {
     text-align: left;
 }
@@ -23,6 +26,9 @@ button {
     padding: 12 30;
     font-size: 20;
 }
+.container {
+    color: beige;
+}
 button:hover {
     background-color: chocolate;
     color:white;
@@ -32,8 +38,10 @@ button:hover {
     margin-bottom: 0vh;
 }
 .toShow {
+    color: beige;
     position: relative;
     margin-top: 16vh;
     font-size: 25px;
     font-family: 'Lobster', cursive;
+    display: inline-block;
 }
