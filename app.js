@@ -7,6 +7,3 @@ function pictureRemoval() {
     document.getElementsByClassName("toHide")[0].style.display = "none";
     document.getElementsByClassName("toShow")[0].style.display = "block";
 }
-function jidlo () {
-    at se ukaze obrazek jidla.kdyznadtimhoveruju
-}

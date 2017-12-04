@@ -1,5 +1,7 @@
 html {
     text-align: center;
+    background: url(foody.jpeg);
+    background-size: cover;
 }
 h1 {
     background-color: aliceblue;
@@ -27,8 +29,11 @@ button:hover {
 }
 .test {
     font-size: 10;
+    margin-bottom: 0vh;
 }
 .toShow {
     position: relative;
-    margin-top: 30vh;
+    margin-top: 16vh;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
 }
