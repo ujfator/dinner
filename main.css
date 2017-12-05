@@ -26,9 +26,6 @@ button {
     padding: 12 30;
     font-size: 20;
 }
-.container {
-    color: beige;
-}
 button:hover {
     background-color: chocolate;
     color:white;
@@ -36,6 +33,9 @@ button:hover {
 .test {
     font-size: 10;
     margin-bottom: 0vh;
+}
+.toHide {
+    color: beige;
 }
 .toShow {
     color: beige;
@@ -45,22 +45,15 @@ button:hover {
     font-family: 'Lobster', cursive;
     display: inline-block;
 }
-img {
-    display: inline-block;
-}
 #horiatiki {
     display: none;
-    display: inline-block;
 }
 #wings {
     display: none;
-    display: inline-block;
 }
 #pasta {
     display: none;
-    display: inline-block;
 }
 #gnocchi {
     display: none;
-    display: inline-block;
 }
