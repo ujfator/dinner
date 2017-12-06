@@ -2,6 +2,11 @@ document.addEventListener("DOMContentLoaded",function() {
     alert("DOM fully loaded and parsed.\nYou may proceed to page itself.")
 });
 
+$('#video').YTPlayer({
+    fitToBackground: true,
+    videoId: 'IEDIh9CSHhA'
+});
+
 
 function welcome() {
     alert("Vítejte!\nNajeďte myší na text.");
@@ -11,6 +16,7 @@ function pictureRemoval() {
     document.getElementsByClassName("toHide")[0].style.display = "none";
     document.getElementsByClassName("toShow")[0].style.display = "block";
     welcome();
+    console.log("pictureRemovalfunctioning")
 }
 //function showPicture() {
     //document.getElementsByTagName("IMG").style.display = "inline-block";

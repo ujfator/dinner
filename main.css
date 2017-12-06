@@ -57,3 +57,13 @@ button:hover {
 #gnocchi {
     display: none;
 }
+#video{
+ position: relative;
+ background: transparent;
+}
+
+.ytplayer-container{
+ position: absolute;
+ top: 0;
+ z-index: -1;
+}
